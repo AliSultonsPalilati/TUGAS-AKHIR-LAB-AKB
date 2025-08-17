@@ -6,14 +6,14 @@ import { Link } from 'expo-router';
 // --- DATA DUMMY (Sesuai Desain Figma) ---
 const saleItems = [
   { id: '1', brand: 'Dorothy Perkins', name: 'Evening Dress', priceOld: '15$', priceNew: '12$', discount: '-20%', rating: 4, reviews: 10, image: 'https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: '2', brand: 'Sitlly', name: 'Sport Dress', priceOld: '22$', priceNew: '19$', discount: '-15%', rating: 5, reviews: 10, image: 'https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&w=600' },
+  { id: '2', brand: 'Sitlly', name: 'Hoodie ', priceOld: '22$', priceNew: '19$', discount: '-15%', rating: 5, reviews: 10, image: 'https://i.pinimg.com/736x/46/6e/ba/466ebad10178c9ca10b7c20e622ed5e1.jpg?auto=compress&cs=tinysrgb&w=600' },
   { id: '3', brand: 'Dorothy Perkins', name: 'Sport Dress', priceOld: '14$', priceNew: '12$', discount: '-20%', rating: 4, reviews: 8, image: 'https://images.pexels.com/photos/2043590/pexels-photo-2043590.jpeg?auto=compress&cs=tinysrgb&w=600' },
 ];
 
 const newArrivals = [
   { id: '4', image: 'https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: '5', image: 'https://images.pexels.com/photos/2752045/pexels-photo-2752045.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: '6', image: 'https://i.pinimg.com/736x/07/e0/df/07e0dfa9689207d41c8986ec1646c8b3.jpg?auto=compress&cs=tinysrgb&w=600' },
+  { id: '5', image: 'https://i.pinimg.com/1200x/49/f7/ff/49f7ff41618df13a3657c530ce7916fb.jpg?auto=compress&cs=tinysrgb&w=600' },
+  { id: '6', image: 'https://i.pinimg.com/736x/c2/e6/86/c2e686afce6088f6d96a1ac17109aa11.jpg?auto=compress&cs=tinysrgb&w=600' },
 ];
 // --- END OF DATA DUMMY ---
 
