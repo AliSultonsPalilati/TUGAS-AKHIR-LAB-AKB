@@ -4,13 +4,13 @@ import React from 'react';
 export default function RootLayout() {
   return (
     <Stack>
-      {/* Mendaftarkan grup auth */}
+      {/* Mendaftarkan grup (auth) */}
       <Stack.Screen name="(auth)" options={{ headerShown: false }} />
       
-      {/* Mendaftarkan grup tabs */}
+      {/* Mendaftarkan grup (tabs) */}
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       
-      {/* DIUBAH: Mendaftarkan grup product, bukan file di dalamnya */}
+      {/* INI ADALAH BARIS YANG BENAR UNTUK MENDAFTARKAN PRODUK */}
       <Stack.Screen name="(product)" options={{ headerShown: false }} />
     </Stack>
   );
