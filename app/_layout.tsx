@@ -10,8 +10,8 @@ export default function RootLayout() {
       {/* Mendaftarkan grup (tabs) */}
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       
-      {/* INI ADALAH BARIS YANG BENAR UNTUK MENDAFTARKAN PRODUK */}
-      <Stack.Screen name="(product)" options={{ headerShown: false }} />
+      {/* DIUBAH: Mendaftarkan rute produk dengan nama yang benar sesuai sitemap */}
+      <Stack.Screen name="(product)/[id]" options={{ headerShown: false }} />
     </Stack>
   );
 }
